@@ -4,6 +4,8 @@ This simple PHP application allows you to view SiteMap the SiteMap multifamily
 units index. There are two columns: one for units with an area of `1` and one for
 units with an area of `>1`.
 
+![](./screenshot.png)
+
 ## Development
 
 To develop, just spin up a local server and be sure you're watching for Sass changes
