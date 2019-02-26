@@ -1,6 +1,6 @@
-# SiteMap Viewer
+# SightMap Viewer
 
-This simple PHP application allows you to view SiteMap the SiteMap multifamily
+This simple PHP application allows you to view SightMap the SightMap multifamily
 units index. There are two columns: one for units with an area of `1` and one for
 units with an area of `>1`.
 
