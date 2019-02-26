@@ -22,7 +22,7 @@
               <h1>
                 SightMap View
 
-                <small>View SiteMap Listings Quickly & Easily</small>
+                <small>View SightMap Listings Quickly & Easily</small>
               </h1>
             </div>
           </div>
