@@ -1,0 +1,57 @@
+h1 {
+  font-family: $font-family;
+  font-weight: $font-weight-heavy;
+  margin: 0;
+  color: $color-white;
+  font-size: 3em;
+
+  small {
+    font-family: $font-family;
+    font-weight: $font-weight-light;
+    margin: 0;
+    color: $color-white;
+    font-size: .25em;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+h2 {
+  font-family: $font-family;
+  font-weight: $font-weight-light;
+  margin: 0;
+  color: $color-white;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: $font-family;
+  font-weight: $font-weight-light;
+  margin: 0;
+  color: $color-black;
+  font-size: .8em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: $font-family;
+  font-weight: $font-weight-regular;
+  margin: 0;
+  color: $color-black;
+  font-size: 1em;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/**
+ * Attrs
+ */
+.text-center {
+  text-align: center;
+}

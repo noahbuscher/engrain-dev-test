@@ -1,0 +1,19 @@
+.card {
+  border-radius: $base-border-radius;
+  box-shadow: $base-box-shadow;
+  overflow: hidden;
+  background: $color-white;
+  margin-bottom: 20px;
+
+  .card-inner {
+
+    .card-title {
+      background-color: $color-accent;
+      padding: 10px 20px;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+  }
+}

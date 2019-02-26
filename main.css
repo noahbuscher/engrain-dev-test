@@ -1,0 +1,140 @@
+/**
+ * Base
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Grid
+ */
+/**
+ * Misc
+ */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+  font-size: 3em; }
+  h1 small {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+    font-size: .25em;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 10px; }
+
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  color: #fff;
+  font-size: 1.5em; }
+
+h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  color: #000;
+  font-size: .8em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px; }
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #000;
+  font-size: 1em;
+  margin-bottom: 10px; }
+  p:last-child {
+    margin-bottom: 0; }
+
+/**
+ * Attrs
+ */
+.text-center {
+  text-align: center; }
+
+.m-b-10 {
+  margin-bottom: 30px; }
+
+/**
+ * Components
+ */
+.container {
+  max-width: 960px;
+  margin: 0 auto; }
+  .container .row {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 40px; }
+    .container .row.row-nobottom {
+      padding-bottom: 0; }
+    @media only screen and (max-width: 960px) {
+      .container .row {
+        flex-direction: column;
+        padding: 40px; } }
+    .container .row .col-1 {
+      flex: 1;
+      flex-grow: 1;
+      margin-right: 40px; }
+      .container .row .col-1:last-child {
+        margin-right: 0; }
+      @media only screen and (max-width: 960px) {
+        .container .row .col-1 {
+          margin-right: 0;
+          margin-bottom: 40px; }
+          .container .row .col-1:last-child {
+            margin-bottom: 0; } }
+
+.hero {
+  background-color: #000; }
+
+.card {
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 20px; }
+  .card .card-inner .card-title {
+    background-color: #007790;
+    padding: 10px 20px; }
+  .card .card-inner .card-body {
+    padding: 20px; }
+
+button, .btn {
+  padding: 10px 20;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  background-color: #007790;
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em; }
+
+/**
+ * Pages
+ */
+
+/*# sourceMappingURL=main.css.map */

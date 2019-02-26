@@ -1,0 +1,38 @@
+.container {
+  max-width: $grid-max-width;
+  margin: 0 auto;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 40px;
+
+    &.row-nobottom {
+        padding-bottom: 0;
+    }
+
+    @media only screen and (max-width: $grid-tablet-bkpt) {
+      flex-direction: column;
+      padding: 40px;
+    }
+
+    .col-1 {
+      flex: 1;
+      flex-grow: 1;
+      margin-right: $grid-gutter-width;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      @media only screen and (max-width: $grid-tablet-bkpt) {
+        margin-right: 0;
+        margin-bottom: $grid-gutter-width;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
