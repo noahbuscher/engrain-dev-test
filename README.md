@@ -4,6 +4,8 @@ This simple PHP application allows you to view SightMap the SightMap multifamily
 units index. There are two columns: one for units with an area of `1` and one for
 units with an area of `>1`.
 
+You can watch the unedited video of me building this [here](https://www.youtube.com/watch?v=GGPGtOD36uo).
+
 ![](./screenshot.png)
 
 ## Development
