@@ -17,7 +17,7 @@ with:
 sass --watch ./main.scss:./main.css
 ```
 
-### Deployment
+## Deployment
 
 Just upload the contents of this repo to your hosting provider of choice and
 you're golden!
